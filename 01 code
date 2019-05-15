@@ -22,7 +22,7 @@ void setup() {
   LBLEAdvertisementData beaconData;
 
   // This is a common AirLocate example UUID.
-  LBLEUuid uuid("05051010-DFFB-48D2-B060-D0F5A71096E0");
+  LBLEUuid uuid("05050103-DFFB-48D2-B060-D0F5A71096E0");
   beaconData.configAsIBeacon(uuid, 01, 02, -40);
 
   Serial.print("Start advertising iBeacon with uuid=");
